@@ -16,7 +16,7 @@ function App() {
         <div>
           <button
             onClick={() => {
-              <Counter counter={counter} setCounter={setCounter} />;
+              return <Counter counter={counter} setCounter={setCounter} />;
             }}
           >
             Add Counter
