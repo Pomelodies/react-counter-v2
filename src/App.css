@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid#e5e5e5;
+  padding: 30px;
+  gap: 20px;
+  font-size: 30px;
+  height: 100px;
+}
+.icone {
+  color: #5c48d3;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+  gap: 50px;
+}
+
+.buttonCounter {
+  display: flex;
+  gap: 20px;
+}
+
+.buttonCounter > button {
+  border: none;
+  background-color: white;
+  font-size: 35px;
+}
+
+.counter {
+  height: 100px;
+  width: 90px;
+  background-color: #5c48d3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 50px;
+}
